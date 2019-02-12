@@ -1,12 +1,21 @@
 .bodycolor {
-background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 47%, rgba(173,173,173,1) 99%, rgba(240,240,240,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(7%, rgba(255,255,255,1)), color-stop(8%, rgba(255,255,255,1)), color-stop(47%, rgba(245,245,245,1)), color-stop(99%, rgba(173,173,173,1)), color-stop(100%, rgba(240,240,240,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 47%, rgba(173,173,173,1) 99%, rgba(240,240,240,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 47%, rgba(173,173,173,1) 99%, rgba(240,240,240,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 47%, rgba(173,173,173,1) 99%, rgba(240,240,240,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 8%, rgba(245,245,245,1) 47%, rgba(173,173,173,1) 99%, rgba(240,240,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0', GradientType=1 );
+/* IE10+ */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10, #FFFFFF), color-stop(30, #E5EBEE), color-stop(51, #D7DEE3), color-stop(100, #f5f7f9));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 }
 
 
@@ -386,8 +395,19 @@ transition: opacity 5s ease-on;
 .footericons {
     margin-top: 40px;
     letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 50px;
   
 }
+
+
+#footerid {
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-bottom: -50px;
+    
+}
+
 
 #github:hover {
     opacity: 0.9;
@@ -401,6 +421,40 @@ transition: opacity 5s ease-on;
     transition: all 0.5s ease;
     color: #ff8c1a;
 }
+
+
+
+
+#myemail{
+ text-align: center;
+    color: #ff8c1a;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
