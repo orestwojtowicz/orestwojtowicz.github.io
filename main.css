@@ -1,27 +1,27 @@
 .bodycolor {
-/* IE10+ */ 
-background-image: -ms-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 
-/* Opera */ 
-background-image: -o-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10, #FFFFFF), color-stop(30, #E5EBEE), color-stop(51, #D7DEE3), color-stop(100, #f5f7f9));
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10, #FFFFFF), color-stop(30, #E5EBEE), color-stop(51, #D7DEE3), color-stop(100, #f5f7f9));
 
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 
-/* W3C Markup */ 
-background-image: linear-gradient(to bottom, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 51%, #f5f7f9 100%);
 }
 
 
 
 
-#navprojects{
+#navprojects {
     color: black;
     letter-spacing: 1.5px;
     margin-right: 30px;
@@ -30,39 +30,39 @@ background-image: linear-gradient(to bottom, #FFFFFF 10%, #E5EBEE 30%, #D7DEE3 5
 
 
 #navservices {
-     color: black;
+    color: black;
     letter-spacing: 1.5px;
     margin-right: 30px;
-transition: 0s;
+    transition: 0s;
 }
 
-#navcontact{
-  color: black;  
+#navcontact {
+    color: black;
     letter-spacing: 1.5px;
     transition: 0s;
-} 
+}
 
 
 
 
-#navprojects:hover{
-   color: #ff8c1a;
+#navprojects:hover {
+    color: #ff8c1a;
     transition: 0.5s;
-   
+
 }
 
 
 #navservices:hover {
-   color: #ff8c1a;
-     transition: 0.5s;
+    color: #ff8c1a;
+    transition: 0.5s;
 }
 
-#navcontact:hover{
- color: #ff8c1a;
-     transition: 0.5s;
-     
-    
-} 
+#navcontact:hover {
+    color: #ff8c1a;
+    transition: 0.5s;
+
+
+}
 
 
 .projectsSecondRow {
@@ -78,13 +78,14 @@ transition: 0s;
 #move {
     padding-right: 10px;
 }
- h1 { 
-    
-   
+
+h1 {
+
+
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
-     
+
 }
 
 
@@ -92,7 +93,7 @@ transition: 0s;
 /* STYLING about section */
 .about {
     margin-top: 60px;
-    
+
 }
 
 
@@ -101,32 +102,32 @@ transition: 0s;
     letter-spacing: 1.5px;
 }
 
-#header2{
- text-align: center;
+#header2 {
+    text-align: center;
     font-size: 400%;
     color: #ff8c1a;
-     letter-spacing: 1.5px;
-    
+    letter-spacing: 1.5px;
+
 }
 
 
-#header3{
-   text-align: center; 
-     font-size: 300%;
-     letter-spacing: 1.5px;
-}
-
-
-#header4{
+#header3 {
     text-align: center;
-     font-size: 300%;
-     letter-spacing: 1.5px;
+    font-size: 300%;
+    letter-spacing: 1.5px;
+}
+
+
+#header4 {
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 1.5px;
 }
 
 
 
 .navbar-nav {
-   
+
     padding-right: 300px;
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -138,32 +139,33 @@ transition: 0s;
 
 .container {
     margin-top: 8%;
-   margin-left: 8%;
+    margin-left: 8%;
 }
 
 
 .text-center {
     margin-bottom: 150px;
-    
+
 }
 
-#header6{
+#header6 {
     margin-top: 50px;
     font-size: 2.5rem;
-     color: #ff8c1a;
+    color: #ff8c1a;
 }
 
 
 
 .card-body {
     background-color: #E0E0E0;
-  
+
 }
+
 #btncolor {
-     
+
     color: black;
     font-weight: 1000;
-   
+
 
 }
 
@@ -171,39 +173,40 @@ transition: 0s;
     background-color: #ff8c1a;
     color: black;
     opacity: 0.5;
-transition: opacity 5s ease-on;
--moz-transition: opacity 5s ease-in;
--webkit-transition: opacity 5s ease-in;
--o-transition: opacity 5s ease-in;
-   
-}
-#btncolor2:hover{
-  background-color: #ff8c1a;
-    color: black;
-    opacity: 0.5;
-transition: opacity 5s ease-on;
--moz-transition: opacity 5s ease-in;
--webkit-transition: opacity 5s ease-in;
--o-transition: opacity 5s ease-in;
+    transition: opacity 5s ease-on;
+    -moz-transition: opacity 5s ease-in;
+    -webkit-transition: opacity 5s ease-in;
+    -o-transition: opacity 5s ease-in;
+
 }
 
-#btncolor2{
-      color: black;
+#btncolor2:hover {
+    background-color: #ff8c1a;
+    color: black;
+    opacity: 0.5;
+    transition: opacity 5s ease-on;
+    -moz-transition: opacity 5s ease-in;
+    -webkit-transition: opacity 5s ease-in;
+    -o-transition: opacity 5s ease-in;
+}
+
+#btncolor2 {
+    color: black;
     font-weight: 1000;
 }
 
-#btncolor3:hover{
-  background-color: #ff8c1a;
+#btncolor3:hover {
+    background-color: #ff8c1a;
     color: black;
     opacity: 0.5;
-transition: opacity 5s ease-on;
--moz-transition: opacity 5s ease-in;
--webkit-transition: opacity 5s ease-in;
--o-transition: opacity 5s ease-in;
+    transition: opacity 5s ease-on;
+    -moz-transition: opacity 5s ease-in;
+    -webkit-transition: opacity 5s ease-in;
+    -o-transition: opacity 5s ease-in;
 }
 
-#btncolor3{
-      color: black;
+#btncolor3 {
+    color: black;
     font-weight: 1000;
 }
 
@@ -213,22 +216,22 @@ transition: opacity 5s ease-on;
 
 
 .card:hover {
-    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    -mozbkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    
-    
-    
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    -mozbkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+
+
+
 }
 
 
 
 /* STYLING MY SERICES */
-    
-    
-    .section-title {
-        text-align: center;
-    }
+
+
+.section-title {
+    text-align: center;
+}
 
 .section-title__name {
     font-size: 4rem;
@@ -237,7 +240,7 @@ transition: opacity 5s ease-on;
     text-transform: capitalize;
     font-weight: 700;
     font-style: italic;
-    
+
 }
 
 .services {
@@ -250,7 +253,7 @@ transition: opacity 5s ease-on;
     margin: 2rem auto;
 }
 
-    
+
 .services__single-service {
     margin: 2rem auto;
     text-align: center;
@@ -261,7 +264,7 @@ transition: opacity 5s ease-on;
 
 .services__single-service:hover {
     background: var(--light);
-    box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .services__single-service-icon {
@@ -294,46 +297,46 @@ transition: opacity 5s ease-on;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .services__single-service {
-        flex:0 0 calc(50% - 0.5rem);
+        flex: 0 0 calc(50% - 0.5rem);
     }
-    
-    
-    
+
+
+
 }
 
 
 
 @media screen and (min-width:992px) {
     .services__single-service {
-        flex:0 0 calc(33.333% - 0.25rem);
+        flex: 0 0 calc(33.333% - 0.25rem);
     }
-    
+
 }
 
 
 @media screen and (max-width: 1199px) {
-    .databaseRespo{
-          margin-top: 5rem;
+    .databaseRespo {
+        margin-top: 5rem;
     }
-   
-    
+
+
 }
 
 @media screen and (max-width: 767px) {
-    
-    .adventureRespo{
-     
-    margin-top: 5rem;
-       
+
+    .adventureRespo {
+
+        margin-top: 5rem;
+
     }
-    
+
     .allProjects {
         padding-left: 60px;
     }
-    
-    
+
+
 }
 
 
@@ -346,16 +349,17 @@ transition: opacity 5s ease-on;
 /* CONTACT FORM */
 
 
-.contact{
+.contact {
     background: var(--SectionGrey);
     padding: 3rem 0;
 
 }
 
-.contact__center{
+.contact__center {
     max-width: 80vw;
     margin: 2rem auto;
 }
+
 .contact__header {
     display: flex;
     justify-content: space-between;
@@ -364,17 +368,20 @@ transition: opacity 5s ease-on;
 }
 
 
-.contact__name, .contact__email, .contact__textarea {
+.contact__name,
+.contact__email,
+.contact__textarea {
     background: transparent;
     border: none;
     border-bottom: 3px solid var(--dark);
     padding: 0.25rem 0;
     margin: 2rem 0;
     font-size: 1.2rem;
-    
+
 }
 
-.contact__name, .contact__email {
+.contact__name,
+.contact__email {
     flex: 0 0 calc(50% - 1rem);
 }
 
@@ -382,7 +389,7 @@ transition: opacity 5s ease-on;
     width: 100%;
 }
 
-.contact__btn{
+.contact__btn {
     background: var(--dark);
     color: var(--light);
     display: block;
@@ -404,9 +411,9 @@ transition: opacity 5s ease-on;
 }
 
 
-.contact__icon{
+.contact__icon {
     margin-right: 0.5rem;
-    
+
 }
 
 
@@ -418,7 +425,7 @@ transition: opacity 5s ease-on;
     letter-spacing: 5px;
     text-align: center;
     margin-bottom: 50px;
-  
+
 }
 
 
@@ -428,19 +435,19 @@ transition: opacity 5s ease-on;
     margin-bottom: -50px;
     background-color: #cecece;
     color: #ff8c1a;
-    
+
 }
 
 
 #github:hover {
     opacity: 0.9;
     transition: all 0.5s ease;
-  color: #ff8c1a;
-        
+    color: #ff8c1a;
+
 }
 
 #linked:hover {
-      opacity: 0.9;
+    opacity: 0.9;
     transition: all 0.5s ease;
     color: #ff8c1a;
 }
@@ -448,42 +455,8 @@ transition: opacity 5s ease-on;
 
 
 
-#myemail{
- text-align: center;
+#myemail {
+    text-align: center;
     color: #ff8c1a;
     margin-top: -50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
